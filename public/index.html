@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesar Imagen</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Black and White spa</h1>
+        <form action="/process-image" method="POST">
+            <label for="imageUrl">URL de la imagen:</label>
+            <input type="url" id="imageUrl" name="imageUrl" required>
+            <button type="submit">Subir imagen</button>
+        </form>
+    </div>
+</body>
+</html>
